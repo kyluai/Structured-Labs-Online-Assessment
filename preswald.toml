@@ -1,0 +1,20 @@
+[project]
+title = "Uber Stock Data Analysis"  # Custom Title
+version = "0.1.0"
+port = 8501
+slug = "stock-data-analysis"
+entrypoint = "stock_data_analysis.py"
+
+[branding]
+name = "Uber Stock Data Analysis"  # Custom Branding Name
+logo = "images/custom_logo.png"  # Custom Logo Path (if using sidebar)
+favicon = "images/custom_favicon.ico"  # Custom Favicon Path
+primaryColor = "#4A90E2"  # Custom Color Scheme (Blue color example)
+
+[data.uber_stock_data]
+type = "csv"
+path = "data/uber_stock_data.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
